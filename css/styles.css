@@ -1,0 +1,158 @@
+/* common */
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+span {
+  font-size: 40px
+}
+
+h2 {
+  margin: 0;
+  line-height: 60px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  /* background: red; */
+}
+
+p {
+  margin-top: 48px;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+p + p {
+  margin-top: 16px;
+}
+
+/* header */
+
+section.top {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  /* background: #eee; */
+}
+
+.top-left {
+  display: flex;
+  align-items: center;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+}
+
+.bi-boxes {
+  font-size: 40px;
+  margin-left: 8px;
+}
+
+.bi-person {
+  font-size: 32px;
+  margin-right: 16px;
+}
+
+.bi-envelope {
+  font-size: 32px;
+  margin-right: 8px;
+}
+
+h1 {
+  margin-left: 8px;
+}
+
+
+/* nav */
+
+nav {
+  display: flex;
+  margin-top: 12px;
+  text-align: center;
+  gap: 32px;
+  height: 60px;
+}
+
+.nav-1 {
+  flex: 1;
+  /* border: 1px solid #aaa; */
+  box-shadow: 0px 0px 4px #888;
+  /* border: 1px solid red; */
+}
+
+.nav-2 {
+  flex: 1;
+  /* border: 1px solid #aaa; */
+  box-shadow: 0px 0px 4px #888;
+  /* border: 1px solid red; */
+}
+
+.nav-3 {
+  flex: 1;
+  /* border: 1px solid #aaa; */
+  box-shadow: 0px 0px 4px #888;
+  /* border: 1px solid red; */
+}
+
+
+/* main */
+
+main {
+  padding: 12px;
+  margin-top: 32px;
+  height: 480px;
+  /* border: 1px solid red; */
+  /* box-shadow: 0px 0px 4px #888; */
+}
+
+.blank {
+  line-height: 480px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.write, .blog, .photo {
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+  }
+
+/* 表示用スイッチ */
+.hidden {
+  display: none;
+}
+
+/* footer */
+
+small {
+  display: block;
+  text-align: right;
+  margin-top: 8px;
+  margin-right: 8px;
+}
